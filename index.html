@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mars Mission Application</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Press+Start+2P'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1 id="title">Mars Mission <span>Application</span></h1>
+
+<p id="description"><span>Mars</span> is the stepping stone of the human race on its voyage into the universe. Human settlement on Mars will aid our understanding of the origins of the solar system, the origins of life and our place in the universe. As with the Apollo Moon landings, a human mission to Mars will inspire generations to believe that all things are possible, anything can be achieved.</p>
+
+<form id="survey-form">
+  <fieldset id="personal-info">
+    <legend>Personal information:</legend>
+    
+    <label for="name" id="name-label">
+      <div>Name:</div>
+      
+      <input placeholder="Tommy" type="text" id="name" required>
+    </label>
+
+
+    <label for="email" id="email-label">
+      <div>Email:</div>
+      
+      <input placeholder="tommy@nasa.gov" type="email" id="email" required>
+    </label>
+    
+    <div>
+      <label for="age" id="number-label">
+        <div>Age:</div>
+        
+        <input placeholder="42" type="number" id="number" min="0" max="100">
+      </label>
+    </div>
+    
+  </fieldset>
+  
+  <fieldset id="extra-credit">
+    <legend>Extra Credit:</legend>
+    
+    <label>
+      <div class="question">Are you scared of heights?</div>
+      
+      <select id="dropdown" name="heights">
+        <option value="" disabled selected>Select your option</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+    </label>
+    
+    <div>
+      <div class="question">Do you believe in extraterrestrial intelligence?</div>
+
+      <input value="Yes" name="radio-button" type="radio">
+      <label>Yes</label>
+
+      <input value="No" name="radio-button" type="radio">
+      <label>No</label>
+
+      <input value="I'm just asking questions" name="radio-button" type="radio">
+      <label>I'm just asking questions.</label>
+    </div>
+    
+    <div>
+      <div class="question">How likely are you to get motion sickness?</div>
+      
+      <input value="Very unlikely" id="checkBox" type="checkbox">
+      <label>Very unlikely</label>
+
+      <input value="Unlikely" id="checkBox" type="checkbox">
+      <label>Unlikely</label>
+      
+      <input value="Not sure" id="checkBox" type="checkbox">
+      <label>Not sure</label>
+      
+      <input value="Likey" id="checkBox" type="checkbox">
+      <label>Likely</label>
+
+      <input value="Very likely" id="checkBox" type="checkbox">
+      <label>Very likely</label>
+    </div>
+    
+    <div class="question">Previous spaceflight experience:</div>
+    <textarea placeholder="The last time.."></textarea>
+  </fieldset>
+  
+  <button id="submit" type="submit" style="margin-top: 1rem;">Submit</button>
+</form>
+  <script src='https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js'></script>
+
+  
+
+</body>
+
+</html>

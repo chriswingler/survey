@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/93NxU-b/videoblocks-loopable-dense-realistic-starry-sky-with-slowly-twinkling-stars-background_h-s5isnrg_thumbnail-full01.png");
+    color: white;
+    padding: 1rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1vw;
+  }
+  
+  div {
+    margin: 1rem;
+  }
+  
+  #title {
+    font-size: 7vw;
+    color: red;
+  }
+  
+  h1 > span {
+    color: #00ff80;
+  }
+  
+  #description {
+    color: #0080ff;
+    padding: 2rem;
+    font-size: 3vw;
+  }
+  
+  #description > span {
+    color: red;
+  }
+  
+  fieldset {
+    font-size: 2vw;
+    margin: 1rem 0 1rem 0;
+    border-color: #ff0080
+  }
+  
+  #personal-info {
+    color: #ff00ff
+  }
+  
+  #personal-info > input {
+    width: 100%;
+  }
+  
+  #name-label {
+    width: 100%;
+  }
+  
+  #extra-credit {
+    color: #00ffff;
+    line-height: 1.5rem;
+  }
+  
+  .question {
+    color: #a0e8a0;
+  }
+  
+  #extra-credit select {
+    background-color: #a0e8a0;
+    font-size: 1.5vw;
+    color: red;
+    padding: 1rem;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  #extra-credit > textarea {
+    border: 5px solid #00ffff;
+    background-color: black;
+    color: #a0e8a0;
+    padding: 1rem;
+  }
+  
+  input {
+    border: 5px solid #ff00ff;
+    font-size: 2vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  legend {
+    color: #ff0080;
+  }
+  
+  button {
+    color: #00ff80;
+    background-color: red;
+    border: 5px solid #00ff80;
+    font-size: 2vw;
+    width: 20vw;
+    height: 5vh;
+    font-family: 'Press Start 2P', cursive;
+  }
